@@ -910,7 +910,13 @@
 
 #define MOVES_COUNT_GEN9 848
 
-#define MOVES_COUNT         MOVES_COUNT_GEN9
+// Tiskan Region moves
+#define MOVE_PARTY_CANNON 849
+#define MOVE_TOLLING_BELL 850
+
+#define MOVES_COUNT_TISKAN 851
+
+#define MOVES_COUNT         MOVES_COUNT_TISKAN
 
 // Z Moves
 #define MOVE_BREAKNECK_BLITZ (MOVES_COUNT + 0)

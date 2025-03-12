@@ -6391,3 +6391,51 @@ DirectSoundWaveData_sd90_classical_whistle::
 	.align 2
 DirectSoundWaveData_sd90_enhanced_delay_shaku::
 	.incbin "sound/direct_sound_samples/sd90_enhanced_delay_shaku.bin"
+
+	.align 2
+DirectSoundWaveData_kazakh_kobyz::
+	.incbin "sound/direct_sound_samples/kazakh_kobyz.bin"
+
+	.align 2
+Cry_WurmpleParty::
+	.incbin "sound/direct_sound_samples/cries/wurmple_party.bin"
+
+	.align 2
+Cry_Gooze::
+	.incbin "sound/direct_sound_samples/cries/gooze.bin"
+
+	.align 2
+Cry_Syroop::
+	.incbin "sound/direct_sound_samples/cries/syroop.bin"
+
+	.align 2
+Cry_Criaqua::
+	.incbin "sound/direct_sound_samples/cries/criaqua.bin"
+
+	.align 2
+Cry_Alpaqua::
+	.incbin "sound/direct_sound_samples/cries/alpaqua.bin"
+
+	.align 2
+Cry_Bhunsen::
+	.incbin "sound/direct_sound_samples/cries/bhunsen.bin"
+	
+	.align 2
+Cry_Bhurnur::
+	.incbin "sound/direct_sound_samples/cries/bhurnur.bin"
+	
+	.align 2
+Cry_Geododo::
+	.incbin "sound/direct_sound_samples/cries/geododo.bin"
+	
+	.align 2
+Cry_Rokstinct::
+	.incbin "sound/direct_sound_samples/cries/rokstinct.bin"
+	
+	.align 2
+Cry_Maittiel::
+	.incbin "sound/direct_sound_samples/cries/maittiel.bin"
+	
+	.align 2
+Cry_Chifoptera::
+	.incbin "sound/direct_sound_samples/cries/chifoptera.bin"

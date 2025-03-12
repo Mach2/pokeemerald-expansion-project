@@ -1638,7 +1638,27 @@
 #define SPECIES_MIMIKYU_BUSTED_TOTEM                    1523
 #define SPECIES_MIMIKYU_TOTEM_BUSTED                    SPECIES_MIMIKYU_BUSTED_TOTEM
 
-#define SPECIES_EGG                                     (SPECIES_MIMIKYU_BUSTED_TOTEM + 1)
+// Tiskan Species BEGIN
+#define SPECIES_GOOZE                                   1524
+#define SPECIES_SYROOP                                  1525
+#define SPECIES_CRIAQUA                                 1526
+#define SPECIES_ALPAQUA                                 1527
+#define SPECIES_BHUNSEN                                 1528
+#define SPECIES_BHURNUR                                 1529
+#define SPECIES_GEODODO                                 1530
+#define SPECIES_ROKSTINCT                               1531
+#define SPECIES_MAITTIEL                                1532
+#define SPECIES_CHIFOPTERA                              1533
+
+#define SPECIES_CRONOTURN                               (SPECIES_CHIFOPTERA + 1)
+// Tiskan Species END
+
+
+// Tiskan Forms BEGIN
+#define SPECIES_WURMPLE_PARTY                           (SPECIES_CRONOTURN + 1)
+// Tiskan Forms END
+
+#define SPECIES_EGG                                     (SPECIES_WURMPLE_PARTY + 1)
 
 #define NUM_SPECIES SPECIES_EGG
 

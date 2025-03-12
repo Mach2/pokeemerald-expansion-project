@@ -33,7 +33,7 @@ const struct SpeciesInfo gSpeciesInfoGenT[] =
         .weight = 36,
         .description = COMPOUND_STRING(
             "It sticks to tree branches and toots\n"
-            "its horn. Thread it spits from the horn,\n"
+            "its horn. Thread it spits from the horn\n"
             "becomes gooey on contact with air,\n"
             "slowing movements of its shocked foes."),
         .pokemonScale = 711,
@@ -69,7 +69,7 @@ const struct SpeciesInfo gSpeciesInfoGenT[] =
             gShinyOverworldPalette_Wurmple
         )
         .tmIlliterate = TRUE,
-        .levelUpLearnset = sWurmpleLevelUpLearnset,
+        .levelUpLearnset = sWurmplePartyLevelUpLearnset,
         .teachableLearnset = sWurmpleTeachableLearnset,
     },
 #endif //P_WURMPLE_PARTY
