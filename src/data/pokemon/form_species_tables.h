@@ -2195,3 +2195,9 @@ static const u16 sTerapagosFormSpeciesIdTable[] = {
     FORM_SPECIES_END,
 };
 #endif //P_FAMILY_TERAPAGOS
+
+static const u16 sWurmpleFormSpeciesIdTable[] = {
+    SPECIES_WURMPLE,
+    SPECIES_WURMPLE_PARTY,
+    FORM_SPECIES_END,
+};

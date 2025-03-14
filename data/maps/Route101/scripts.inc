@@ -208,6 +208,7 @@ Route101_Movement_Unused2:
 
 Route101_EventScript_Youngster::
 	msgbox Route101_Text_TakeTiredPokemonToPokeCenter, MSGBOX_NPC
+	giveitem ITEM_ULTRA_BALL, 25
 	end
 
 Route101_EventScript_Boy::

@@ -35838,3 +35838,24 @@ static const u16 sPecharuntTeachableLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 #endif //P_FAMILY_PECHARUNT
+
+static const u16 sGoozeTeachableLearnset[] = {
+    MOVE_ATTRACT,
+    MOVE_DOUBLE_TEAM,
+    MOVE_FACADE,
+    MOVE_PROTECT,
+    MOVE_RAIN_DANCE,
+    MOVE_REST,
+    MOVE_SHOCK_WAVE,
+    MOVE_SLUDGE_BOMB,
+    MOVE_SUNNY_DAY,
+    MOVE_TOXIC,
+    MOVE_WATER_PULSE,
+    MOVE_BODY_SLAM,
+    MOVE_COUNTER,
+    MOVE_ENDURE,
+    MOVE_SLEEP_TALK,
+    MOVE_SNORE,
+    MOVE_SWAGGER,
+    MOVE_UNAVAILABLE,
+};

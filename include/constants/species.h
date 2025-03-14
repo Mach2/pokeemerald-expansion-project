@@ -1650,12 +1650,12 @@
 #define SPECIES_MAITTIEL                                1532
 #define SPECIES_CHIFOPTERA                              1533
 
-#define SPECIES_CRONOTURN                               (SPECIES_CHIFOPTERA + 1)
+#define SPECIES_CRONOTURN                               1534
 // Tiskan Species END
 
 
 // Tiskan Forms BEGIN
-#define SPECIES_WURMPLE_PARTY                           (SPECIES_CRONOTURN + 1)
+#define SPECIES_WURMPLE_PARTY                           1535
 // Tiskan Forms END
 
 #define SPECIES_EGG                                     (SPECIES_WURMPLE_PARTY + 1)
