@@ -5,12 +5,12 @@ const struct SpeciesInfo gSpeciesInfoGenT[] =
 
     [SPECIES_WURMPLE_PARTY] =
     {
-        .baseHP        = 50,
-        .baseAttack    = 45,
-        .baseDefense   = 35,
+        .baseHP        = 65,
+        .baseAttack    = 63,
+        .baseDefense   = 41,
         .baseSpeed     = 20,
         .baseSpAttack  = 20,
-        .baseSpDefense = 30,
+        .baseSpDefense = 41,
         .types = MON_TYPES(TYPE_BUG),
         .catchRate = 255,
         .expYield = 56,
@@ -31,10 +31,10 @@ const struct SpeciesInfo gSpeciesInfoGenT[] =
         .height = 4,
         .weight = 36,
         .description = COMPOUND_STRING(
-            "It sticks to tree branches and toots\n"
-            "its horn. Thread it spits from the horn\n"
-            "becomes gooey on contact with air,\n"
-            "slowing movements of its shocked foes."),
+            "A weak creature that hides in trees\n"
+            "and bushes. It loves its silly hat and\n"
+            "always seems to be celebrating.\n"
+            "It can spit sticky thread to slow foes."),
         .pokemonScale = 711,
         .pokemonOffset = 24,
         .trainerScale = 256,

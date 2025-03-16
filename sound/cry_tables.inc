@@ -2424,16 +2424,62 @@ gCryTable::
 .if P_FAMILY_PECHARUNT == TRUE
 	cry Cry_Pecharunt
 .endif @ P_FAMILY_PECHARUNT
+	cry Cry_Bobbug
+	cry Cry_Chrystitch
+	cry Cry_Embroidle
+	cry Cry_Dirbuny
+	cry Cry_Deilint
+	cry Cry_Eyrstling
+	cry Cry_Skeyrie
+	cry Cry_Huntalon
+	cry Cry_Taddle
+	cry Cry_TAke
+	cry Cry_Tuatide
 	cry Cry_Gooze
 	cry Cry_Syroop
 	cry Cry_Criaqua
 	cry Cry_Alpaqua
 	cry Cry_Bhunsen
 	cry Cry_Bhurnur
-	cry Cry_Geododo
-	cry Cry_Rokstinct
+	cry Cry_Irritaunt
+	cry Cry_Pomparade
+	cry Cry_Ergomouse
+	cry Cry_Kiiny
+	cry Cry_Caprane
+	cry Cry_Barbex
+	cry Cry_Totemag
+	cry Cry_Bearbell
+	cry Cry_Bearbuilt
+	cry Cry_Psuebble
+	cry Cry_Reveloom
+	cry Cry_Sprincape
+	cry Cry_Sprincheer
+	cry Cry_Sprincharge
 	cry Cry_Maittiel
 	cry Cry_Chifoptera
+	cry Cry_Temmin
+	cry Cry_Stalliwart
+	cry Cry_Industusk
+	cry Cry_Lapideon
+	cry Cry_Melodeon
+	cry Cry_PorygonB
+	cry Cry_PorygonQ
+	cry Cry_Tumblaze
+	cry Cry_Jurralo
+	cry Cry_Polaralo
+	cry Cry_Geododo
+	cry Cry_Rokstinct
+	cry Cry_Gaviscale
+	cry Cry_Wyrumm
+	cry Cry_Amphiptune
+	cry Cry_Harmoniclaw
+	cry Cry_Nuseance
+	cry Cry_Detrotus
+	cry Cry_Kantarein
+	cry Cry_Starvequus
+	cry Cry_Mortallion
+	cry Cry_Valomare
+	cry Cry_Cronoturn
 	cry Cry_WurmpleParty
 .endif @ P_CRIES_ENABLED
 
@@ -4863,15 +4909,61 @@ gCryTable_Reverse::
 .if P_FAMILY_PECHARUNT == TRUE
 	cry_reverse Cry_Pecharunt
 .endif @ P_FAMILY_PECHARUNT
+	cry_reverse Cry_Bobbug
+	cry_reverse Cry_Chrystitch
+	cry_reverse Cry_Embroidle
+	cry_reverse Cry_Dirbuny
+	cry_reverse Cry_Deilint
+	cry_reverse Cry_Eyrstling
+	cry_reverse Cry_Skeyrie
+	cry_reverse Cry_Huntalon
+	cry_reverse Cry_Taddle
+	cry_reverse Cry_TAke
+	cry_reverse Cry_Tuatide
 	cry_reverse Cry_Gooze
 	cry_reverse Cry_Syroop
 	cry_reverse Cry_Criaqua
 	cry_reverse Cry_Alpaqua
 	cry_reverse Cry_Bhunsen
 	cry_reverse Cry_Bhurnur
-	cry_reverse Cry_Geododo
-	cry_reverse Cry_Rokstinct
+	cry_reverse Cry_Irritaunt
+	cry_reverse Cry_Pomparade
+	cry_reverse Cry_Ergomouse
+	cry_reverse Cry_Kiiny
+	cry_reverse Cry_Caprane
+	cry_reverse Cry_Barbex
+	cry_reverse Cry_Totemag
+	cry_reverse Cry_Bearbell
+	cry_reverse Cry_Bearbuilt
+	cry_reverse Cry_Psuebble
+	cry_reverse Cry_Reveloom
+	cry_reverse Cry_Sprincape
+	cry_reverse Cry_Sprincheer
+	cry_reverse Cry_Sprincharge
 	cry_reverse Cry_Maittiel
 	cry_reverse Cry_Chifoptera
+	cry_reverse Cry_Temmin
+	cry_reverse Cry_Stalliwart
+	cry_reverse Cry_Industusk
+	cry_reverse Cry_Lapideon
+	cry_reverse Cry_Melodeon
+	cry_reverse Cry_PorygonB
+	cry_reverse Cry_PorygonQ
+	cry_reverse Cry_Tumblaze
+	cry_reverse Cry_Jurralo
+	cry_reverse Cry_Polaralo
+	cry_reverse Cry_Geododo
+	cry_reverse Cry_Rokstinct
+	cry_reverse Cry_Gaviscale
+	cry_reverse Cry_Wyrumm
+	cry_reverse Cry_Amphiptune
+	cry_reverse Cry_Harmoniclaw
+	cry_reverse Cry_Nuseance
+	cry_reverse Cry_Detrotus
+	cry_reverse Cry_Kantarein
+	cry_reverse Cry_Starvequus
+	cry_reverse Cry_Mortallion
+	cry_reverse Cry_Valomare
+	cry_reverse Cry_Cronoturn
 	cry_reverse Cry_WurmpleParty
 .endif @ P_CRIES_ENABLED

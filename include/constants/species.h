@@ -1639,23 +1639,67 @@
 #define SPECIES_MIMIKYU_TOTEM_BUSTED                    SPECIES_MIMIKYU_BUSTED_TOTEM
 
 // Tiskan Species BEGIN
-#define SPECIES_GOOZE                                   1524
-#define SPECIES_SYROOP                                  1525
-#define SPECIES_CRIAQUA                                 1526
-#define SPECIES_ALPAQUA                                 1527
-#define SPECIES_BHUNSEN                                 1528
-#define SPECIES_BHURNUR                                 1529
-#define SPECIES_GEODODO                                 1530
-#define SPECIES_ROKSTINCT                               1531
-#define SPECIES_MAITTIEL                                1532
-#define SPECIES_CHIFOPTERA                              1533
-
-#define SPECIES_CRONOTURN                               1534
+#define SPECIES_BOBBUG                                  1524
+#define SPECIES_CHRYSTITCH                              1525
+#define SPECIES_EMBROIDLE                               1526
+#define SPECIES_DIRBUNY                                 1527
+#define SPECIES_DEILINT                                 1528
+#define SPECIES_EYRSTLING                               1529
+#define SPECIES_SKEYRIE                                 1530
+#define SPECIES_HUNTALON                                1531
+#define SPECIES_TADDLE                                  1532
+#define SPECIES_TAKE                                    1533
+#define SPECIES_TUATIDE                                 1534
+#define SPECIES_GOOZE                                   1535
+#define SPECIES_SYROOP                                  1536
+#define SPECIES_CRIAQUA                                 1537
+#define SPECIES_ALPAQUA                                 1538
+#define SPECIES_BHUNSEN                                 1539
+#define SPECIES_BHURNUR                                 1540
+#define SPECIES_IRRITAUNT                               1541
+#define SPECIES_POMPARADE                               1542
+#define SPECIES_ERGOMOUSE                               1543
+#define SPECIES_KIINY                                   1544
+#define SPECIES_CAPRANE                                 1545
+#define SPECIES_BARBEX                                  1546
+#define SPECIES_TOTEMAG                                 1547
+#define SPECIES_BEARBELL                                1548
+#define SPECIES_BEARBUILT                               1549
+#define SPECIES_PSUEBBLE                                1550
+#define SPECIES_REVELOOM                                1551
+#define SPECIES_SPRINCAPE                               1552
+#define SPECIES_SPRINCHEER                              1553
+#define SPECIES_SPRINCHARGE                             1554
+#define SPECIES_MAITTIEL                                1555
+#define SPECIES_CHIFOPTERA                              1556
+#define SPECIES_TEMMIN                                  1557
+#define SPECIES_STALLIWART                              1558
+#define SPECIES_INDUSTUSK                               1559
+#define SPECIES_LAPIDEON                                1560
+#define SPECIES_MELODEON                                1561
+#define SPECIES_PORYGON_B                               1562
+#define SPECIES_PORYGON_Q                               1563
+#define SPECIES_TUMBLAZE                                1564
+#define SPECIES_JURRALO                                 1565
+#define SPECIES_POLARALO                                1566
+#define SPECIES_GEODODO                                 1567
+#define SPECIES_ROKSTINCT                               1568
+#define SPECIES_GAVISCALE                               1569
+#define SPECIES_WYRUMM                                  1570
+#define SPECIES_AMPHIPTUNE                              1571
+#define SPECIES_HARMONICLAW                             1572
+#define SPECIES_NUSEANCE                                1573
+#define SPECIES_DETROTUS                                1574
+#define SPECIES_KANTAREIN                               1575
+#define SPECIES_STARVEQUUS                              1576
+#define SPECIES_MORTALLION                              1577
+#define SPECIES_VALOMARE                                1578
+#define SPECIES_CRONOTURN                               1579
 // Tiskan Species END
 
 
 // Tiskan Forms BEGIN
-#define SPECIES_WURMPLE_PARTY                           1535
+#define SPECIES_WURMPLE_PARTY                           1580
 // Tiskan Forms END
 
 #define SPECIES_EGG                                     (SPECIES_WURMPLE_PARTY + 1)
