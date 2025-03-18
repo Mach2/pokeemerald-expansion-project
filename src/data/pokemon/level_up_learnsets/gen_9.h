@@ -22317,6 +22317,7 @@ static const struct LevelUpMove sPecharuntLevelUpLearnset[] = {
 static const struct LevelUpMove sWurmplePartyLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_STRING_SHOT),
+    LEVEL_UP_MOVE( 1, MOVE_IRRITATE),
     LEVEL_UP_MOVE( 5, MOVE_POISON_STING),
     LEVEL_UP_MOVE(11, MOVE_PARTY_CANNON),
     LEVEL_UP_MOVE(15, MOVE_BUG_BITE),

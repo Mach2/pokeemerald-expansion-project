@@ -913,8 +913,9 @@
 // Tiskan Region moves
 #define MOVE_PARTY_CANNON 849
 #define MOVE_TOLLING_BELL 850
+#define MOVE_IRRITATE 851
 
-#define MOVES_COUNT_TISKAN 851
+#define MOVES_COUNT_TISKAN 852
 
 #define MOVES_COUNT         MOVES_COUNT_TISKAN
 

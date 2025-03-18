@@ -22573,6 +22573,32 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .contestCategory = CONTEST_CATEGORY_COOL,
         .contestComboStarterId = 0,
         .contestComboMoves = {0},
-        .battleAnimScript = gBattleAnimMove_Round,
+        .battleAnimScript = gBattleAnimMove_PartyCannon,
+    },
+
+    [MOVE_IRRITATE] =
+    {
+        .name = COMPOUND_STRING("Irritate"),
+        .description = COMPOUND_STRING(
+            "Super effective on Fairy-\n"
+            "types. Foe may be infested."),
+        .effect = EFFECT_SUPER_EFFECTIVE_ON_ARG,
+        .power = 60,
+        .type = TYPE_BUG,
+        .accuracy = 100,
+        .pp = 15,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_SPECIAL,
+        .argument = { .type = TYPE_FAIRY },
+        .additionalEffects = ADDITIONAL_EFFECTS({
+            .moveEffect = MOVE_EFFECT_WRAP,
+            .chance = 50
+        }),
+        .contestEffect = CONTEST_EFFECT_DONT_EXCITE_AUDIENCE,
+        .contestCategory = CONTEST_CATEGORY_SMART,
+        .contestComboStarterId = 0,
+        .contestComboMoves = {0},
+        .battleAnimScript = gBattleAnimMove_BugBuzz,
     },
 };

@@ -2898,6 +2898,13 @@ extern const u32 gBattleAnimSpritePal_TeraStarstormBeam[];
 extern const u32 gBattleAnimSpriteGfx_SaltParticle[];
 extern const u32 gBattleAnimSpritePal_SaltParticle[];
 
+// New Battle Anim Particles for Tiskan Region
+extern const u32 gBattleAnimSpriteGfx_PartyCannon[];
+extern const u32 gBattleAnimSpritePal_PartyCannon[];
+extern const u32 gBattleAnimSpriteGfx_ConfettiRain[];
+extern const u32 gBattleAnimSpritePal_ConfettiRain[];
+
+
 extern const u32 gBattleAnimBgImage_Dark[];
 extern const u32 gBattleAnimBgImage_Ghost[];
 extern const u32 gBattleAnimBgImage_Psychic[];

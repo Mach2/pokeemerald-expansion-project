@@ -44,7 +44,7 @@
               {
                 "min_level": 2,
                 "max_level": 2,
-                "species": "SPECIES_WURMPLE_PARTY"
+                "species": "SPECIES_JIGGLYPUFF"
               },
               {
                 "min_level": 2,
@@ -74,32 +74,32 @@
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_WURMPLE_PARTY"
+                "species": "SPECIES_KLEFKI"
               },
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_GOOZE"
+                "species": "SPECIES_KLEFKI"
               },
               {
                 "min_level": 2,
                 "max_level": 2,
-                "species": "SPECIES_FUECOCO"
+                "species": "SPECIES_JIGGLYPUFF"
               },
               {
                 "min_level": 2,
                 "max_level": 2,
-                "species": "SPECIES_FUECOCO"
+                "species": "SPECIES_SNUBBULL"
               },
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_FUECOCO"
+                "species": "SPECIES_JIGGLYPUFF"
               },
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_FUECOCO"
+                "species": "SPECIES_KLEFKI"
               }
             ]
           }

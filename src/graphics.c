@@ -1293,6 +1293,12 @@ const u32 gBattleAnimSpritePal_TeraStarstormBeam[] = INCBIN_U32("graphics/battle
 const u32 gBattleAnimSpriteGfx_SaltParticle[] = INCBIN_U32("graphics/battle_anims/sprites/salt_particle.4bpp.lz");
 const u32 gBattleAnimSpritePal_SaltParticle[] = INCBIN_U32("graphics/battle_anims/sprites/salt_particle.gbapal.lz");
 
+const u32 gBattleAnimSpriteGfx_PartyCannon[] = INCBIN_U32("graphics/battle_anims/sprites/party_cannon.4bpp.lz");
+const u32 gBattleAnimSpritePal_PartyCannon[] = INCBIN_U32("graphics/battle_anims/sprites/party_cannon.gbapal.lz");
+
+const u32 gBattleAnimSpriteGfx_ConfettiRain[] = INCBIN_U32("graphics/battle_anims/sprites/confetti_rain.4bpp.lz");
+const u32 gBattleAnimSpritePal_ConfettiRain[] = INCBIN_U32("graphics/battle_anims/sprites/confetti_rain.gbapal.lz");
+
 const u32 gBattleAnimUnusedPal_Unknown2[] = INCBIN_U32("graphics/battle_anims/unused/unknown_2.gbapal.lz");
 
 #include "data/graphics/trainers.h"
