@@ -35859,3 +35859,58 @@ static const u16 sGoozeTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_UNAVAILABLE,
 };
+
+static const u16 sCriaquaTeachableLearnset[] = {
+    MOVE_ATTRACT,
+    MOVE_DOUBLE_TEAM,
+    MOVE_FACADE,
+    MOVE_PROTECT,
+    MOVE_RAIN_DANCE,
+    MOVE_REST,
+    MOVE_TOXIC,
+    MOVE_WATER_PULSE,
+    MOVE_BODY_SLAM,
+    MOVE_COUNTER,
+    MOVE_ENDURE,
+    MOVE_SLEEP_TALK,
+    MOVE_SNORE,
+    MOVE_STOCKPILE,
+    MOVE_SPIT_UP,
+    MOVE_SWALLOW,
+    MOVE_WATER_SPORT,
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sBhunsenTeachableLearnset[] = {
+    MOVE_ATTRACT,
+    MOVE_DOUBLE_TEAM,
+    MOVE_FACADE,
+    MOVE_PROTECT,
+    MOVE_FIRE_PUNCH,
+    MOVE_REST,
+    MOVE_TOXIC,
+    MOVE_FEINT,
+    MOVE_BODY_SLAM,
+    MOVE_COUNTER,
+    MOVE_ENDURE,
+    MOVE_SLEEP_TALK,
+    MOVE_SNORE,
+    MOVE_MEGA_KICK,
+    MOVE_SUNNY_DAY,
+    MOVE_UNAVAILABLE,
+};
+
+static const u16 sGeododoTeachableLearnset[] = {
+    MOVE_BRICK_BREAK,
+    MOVE_HIDDEN_POWER,
+    MOVE_TAUNT,
+    MOVE_THIEF,
+    MOVE_STEEL_WING,
+    MOVE_RETURN,
+    MOVE_EARTHQUAKE,
+    MOVE_ROCK_TOMB,
+    MOVE_DIG,
+    MOVE_SECRET_POWER,
+    MOVE_REST,
+    MOVE_UNAVAILABLE,
+};
