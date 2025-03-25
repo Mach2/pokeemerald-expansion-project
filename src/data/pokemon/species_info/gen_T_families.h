@@ -637,10 +637,10 @@ const struct SpeciesInfo gSpeciesInfoGenT[] =
         },
         .levelUpLearnset = sNoneLevelUpLearnset,
         .teachableLearnset = sNoneTeachableLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 21, SPECIES_TAKE}),
+        .evolutions = EVOLUTION({EVO_LEVEL, 21, SPECIES_TUTARAIN}),
     },
 
-    [SPECIES_TAKE] =
+    [SPECIES_TUTARAIN] =
     {
         .baseHP        = 80,
         .baseAttack    = 56,
@@ -659,9 +659,9 @@ const struct SpeciesInfo gSpeciesInfoGenT[] =
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_BUG), // PLACEHOLDER
         .abilities = { ABILITY_SHIELD_DUST, ABILITY_LEAF_GUARD, ABILITY_RUN_AWAY }, // PLACEHOLDER
         .bodyColor = BODY_COLOR_BLACK, // PLACEHOLDER
-        .speciesName = _("T'Ake"),
-        .cryId = CRY_TAKE,
-        .natDexNum = NATIONAL_DEX_TAKE,
+        .speciesName = _("Tutarain"),
+        .cryId = CRY_TUTARAIN,
+        .natDexNum = NATIONAL_DEX_TUTARAIN,
         .categoryName = _("Tuatara"),
         .height = 0,
         .weight = 0,

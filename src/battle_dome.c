@@ -3918,6 +3918,7 @@ static bool32 IsDomeDefensiveMoveEffect(u32 effect)
     case EFFECT_REFLECT:
     case EFFECT_AURORA_VEIL:
     case EFFECT_CONVERSION:
+    case EFFECT_CONVERSION_0:
     case EFFECT_PROTECT:
     case EFFECT_MAT_BLOCK:
     case EFFECT_ENDURE:

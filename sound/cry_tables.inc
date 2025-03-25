@@ -2433,7 +2433,7 @@ gCryTable::
 	cry Cry_Skeyrie
 	cry Cry_Huntalon
 	cry Cry_Taddle
-	cry Cry_TAke
+	cry Cry_Tutarain
 	cry Cry_Tuatide
 	cry Cry_Gooze
 	cry Cry_Syroop
@@ -4918,7 +4918,7 @@ gCryTable_Reverse::
 	cry_reverse Cry_Skeyrie
 	cry_reverse Cry_Huntalon
 	cry_reverse Cry_Taddle
-	cry_reverse Cry_TAke
+	cry_reverse Cry_Tutarain
 	cry_reverse Cry_Tuatide
 	cry_reverse Cry_Gooze
 	cry_reverse Cry_Syroop

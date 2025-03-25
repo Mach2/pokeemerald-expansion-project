@@ -6196,8 +6196,8 @@ Cry_WurmpleParty::
 	.incbin "sound/direct_sound_samples/cries/taddle.bin"
 
 	.align 2
- Cry_TAke::
-	.incbin "sound/direct_sound_samples/cries/take.bin"
+ Cry_Tutarain::
+	.incbin "sound/direct_sound_samples/cries/tutarain.bin"
 
 	.align 2
  Cry_Tuatide::

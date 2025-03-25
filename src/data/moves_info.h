@@ -22627,6 +22627,32 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .battleAnimScript = gBattleAnimMove_StoneAxe, //TEMPORARY: ANIMATION WILL BE gBattleAnimMove_OreHammer,
     },
 
+    [MOVE_CONVERSION_0] =
+    {
+        .name = COMPOUND_STRING("Conversion 0"),
+        .description = COMPOUND_STRING(
+            "Erases the user's type,\n"
+            "removing all weaknesses."),
+        .effect = EFFECT_CONVERSION_0,
+        .power = 0,
+        .type = TYPE_MYSTERY,
+        .accuracy = 0,
+        .pp = 30,
+        .target = MOVE_TARGET_USER,
+        .priority = 0,
+        .category = DAMAGE_CATEGORY_STATUS,
+        .zMove = { .effect = Z_EFFECT_ALL_STATS_UP_1 },
+        .snatchAffected = B_UPDATED_MOVE_FLAGS >= GEN_5,
+        .ignoresProtect = TRUE,
+        .mirrorMoveBanned = TRUE,
+        .contestEffect = CONTEST_EFFECT_BETTER_IF_SAME_TYPE,
+        .contestCategory = CONTEST_CATEGORY_SMART,
+        .contestComboStarterId = 0,
+        .contestComboMoves = {0},
+        .battleAnimScript = gBattleAnimMove_Conversion, //TEMPORARY: ANIMATION WILL BE gBattleAnimMove_Conversion0,
+        .validApprenticeMove = TRUE,
+    },
+
     [MOVE_DECIMATE] =
     {
         .name = COMPOUND_STRING("Decimate"),
@@ -22773,4 +22799,5 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .contestComboMoves = {0},
         .battleAnimScript = gBattleAnimMove_RoarOfTime, //TEMPORARY: ANIMATION WILL BE gBattleAnimMove_BattleCry,
     },
+
 };

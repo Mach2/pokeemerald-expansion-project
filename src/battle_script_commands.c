@@ -577,7 +577,7 @@ static void Cmd_switchoutabilities(void);
 static void Cmd_jumpifhasnohp(void);
 static void Cmd_jumpifnotcurrentmoveargtype(void);
 static void Cmd_pickup(void);
-static void Cmd_unused_0xE6(void);
+static void Cmd_settypetomystery(void);
 static void Cmd_unused_0xE7(void);
 static void Cmd_settypebasedhalvers(void);
 static void Cmd_jumpifsubstituteblocks(void);
@@ -836,8 +836,8 @@ void (* const gBattleScriptingCommandsTable[])(void) =
     Cmd_jumpifhasnohp,                           //0xE3
     Cmd_jumpifnotcurrentmoveargtype,             //0xE4
     Cmd_pickup,                                  //0xE5
-    Cmd_unused_0xE6,                     //0xE6
-    Cmd_unused_0xE7,                    //0xE7
+    Cmd_settypetomystery,                        //0xE6
+    Cmd_unused_0xE7,                             //0xE7
     Cmd_settypebasedhalvers,                     //0xE8
     Cmd_jumpifsubstituteblocks,                  //0xE9
     Cmd_tryrecycleitem,                          //0xEA
@@ -15459,8 +15459,22 @@ static void Cmd_pickup(void)
     gBattlescriptCurrInstr = cmd->nextInstr;
 }
 
-static void Cmd_unused_0xE6(void)
+// Conversion 0
+static void Cmd_settypetomystery(void)
 {
+    CMD_ARGS(const u8 *failInstr);
+
+    if (!IS_BATTLER_TYPELESS(gBattlerAttacker) && GetActiveGimmick(gBattlerAttacker) != GIMMICK_TERA)
+    {
+        SET_BATTLER_TYPE(gBattlerAttacker, TYPE_MYSTERY);
+        PREPARE_TYPE_BUFFER(gBattleTextBuff1, TYPE_MYSTERY);
+
+        gBattlescriptCurrInstr = cmd->nextInstr;
+    }
+    else
+    {
+        gBattlescriptCurrInstr = cmd->failInstr;
+    }
 }
 
 static void Cmd_unused_0xE7(void)

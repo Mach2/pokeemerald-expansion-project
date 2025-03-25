@@ -1648,7 +1648,7 @@
 #define SPECIES_SKEYRIE                                 1530
 #define SPECIES_HUNTALON                                1531
 #define SPECIES_TADDLE                                  1532
-#define SPECIES_TAKE                                    1533
+#define SPECIES_TUTARAIN                                1533
 #define SPECIES_TUATIDE                                 1534
 #define SPECIES_GOOZE                                   1535
 #define SPECIES_SYROOP                                  1536
@@ -1662,7 +1662,8 @@
 #define SPECIES_KIINY                                   1544
 #define SPECIES_CAPRANE                                 1545
 #define SPECIES_BARBEX                                  1546
-#define SPECIES_TOTEMAG                                 1547
+#define SPECIES_TOTEMAG                                 SPECIES_TOTEMAG_UNCLOAKED
+#define SPECIES_TOTEMAG_UNCLOAKED                       1547
 #define SPECIES_BEARBELL                                1548
 #define SPECIES_BEARBUILT                               1549
 #define SPECIES_PSUEBBLE                                1550
@@ -1699,7 +1700,25 @@
 
 
 // Tiskan Forms BEGIN
-#define SPECIES_WURMPLE_PARTY                           1580
+#define SPECIES_MEOWTH_TISKAN                           1580
+#define SPECIES_PERSIAN_TISKAN                          1581
+#define SPECIES_KANGASKHAN_TISKAN                       1582
+#define SPECIES_PORYGON_TISKAN                          1583
+#define SPECIES_FERALIGATR_MEGA                         1584
+#define SPECIES_HOUNDOUR_TISKAN                         1585
+#define SPECIES_HOUNDOOM_TISKAN_MEGA                    1586
+#define SPECIES_HOUNDOOM_TISKAN                         1587
+#define SPECIES_PHANPY_TISKAN                           1588
+#define SPECIES_DONPHAN_TISKAN                          1589
+#define SPECIES_SEVIPER_MEGA                            1590
+#define SPECIES_SERPERIOR_MEGA                          1591
+#define SPECIES_INCINEROAR_MEGA                         1592
+#define SPECIES_WOOLOO_TISKAN                           1593
+#define SPECIES_DUBWOOL_TISKAN                          1594
+#define SPECIES_DUBWOOL_TISKAN_MEGA                     1595
+#define SPECIES_CRAMORANT_TISKAN                        1596
+#define SPECIES_TOTEMAG_CLOAKED                         1597
+#define SPECIES_WURMPLE_PARTY                           1598
 // Tiskan Forms END
 
 #define SPECIES_EGG                                     (SPECIES_WURMPLE_PARTY + 1)

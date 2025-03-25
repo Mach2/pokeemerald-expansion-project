@@ -4970,6 +4970,7 @@ static s32 AI_ForceSetupFirstTurn(u32 battlerAtk, u32 battlerDef, u32 move, s32 
     case EFFECT_CHILLY_RECEPTION:
     case EFFECT_GEOMANCY:
     case EFFECT_VICTORY_DANCE:
+    case EFFECT_CONVERSION_0:
         ADJUST_SCORE(DECENT_EFFECT);
         break;
     case EFFECT_HIT:
@@ -5212,6 +5213,7 @@ static s32 AI_HPAware(u32 battlerAtk, u32 battlerDef, u32 move, s32 score)
             case EFFECT_SAFEGUARD:
             case EFFECT_BELLY_DRUM:
             case EFFECT_FILLET_AWAY:
+            case EFFECT_CONVERSION_0:
                 ADJUST_SCORE(-2);
                 break;
             default:
@@ -5247,6 +5249,7 @@ static s32 AI_HPAware(u32 battlerAtk, u32 battlerDef, u32 move, s32 score)
             case EFFECT_SNOWSCAPE:
             case EFFECT_RAIN_DANCE:
             case EFFECT_FILLET_AWAY:
+            case EFFECT_CONVERSION_0:
                 ADJUST_SCORE(-2);
                 break;
             default:
