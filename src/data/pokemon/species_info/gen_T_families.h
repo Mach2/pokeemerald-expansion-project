@@ -1099,9 +1099,9 @@ const struct SpeciesInfo gSpeciesInfoGenT[] =
         .height = 4,
         .weight = 450,
         .description = COMPOUND_STRING(
-            "Despite their docile appearance, these\n"
-            "adorable Pokémon are vicious pack hunters.\n"
-            "When they establish an alpha, that Bhunsen\n"
+            "Despite a docile appearance, these cute\n"
+            "Pokémon are vicious pack hunters. When\n"
+            "they establish an alpha, that Bhunsen\n"
             "will evolve into a powerful Bhurnur."),
         .pokemonScale = 460,
         .pokemonOffset = 8,

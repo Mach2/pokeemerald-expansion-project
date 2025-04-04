@@ -22519,6 +22519,7 @@ static const struct LevelUpMove sChifopteraLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
+// Tiski Form Learnsets
 static const struct LevelUpMove sMeowthTiskiLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_FAKE_OUT),
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
@@ -22579,4 +22580,22 @@ static const struct LevelUpMove sKangaskhanTiskiLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-
+static const struct LevelUpMove sPorygonTiskiLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_CONVERSION),
+    LEVEL_UP_MOVE( 1, MOVE_TACKLE),
+    LEVEL_UP_MOVE( 1, MOVE_CONVERSION),
+    LEVEL_UP_MOVE( 1, MOVE_SHARPEN),
+    LEVEL_UP_MOVE( 7, MOVE_PSYBEAM),
+    LEVEL_UP_MOVE(12, MOVE_MAGNET_RISE),
+    LEVEL_UP_MOVE(18, MOVE_RECOVER),
+    LEVEL_UP_MOVE(21, MOVE_SIGNAL_BEAM),
+    LEVEL_UP_MOVE(26, MOVE_IRON_DEFENSE),
+    LEVEL_UP_MOVE(30, MOVE_CONVERSION_0),
+    LEVEL_UP_MOVE(33, MOVE_RECYCLE),
+    LEVEL_UP_MOVE(39, MOVE_DISCHARGE),
+    LEVEL_UP_MOVE(42, MOVE_METAL_SOUND),
+    LEVEL_UP_MOVE(45, MOVE_LOCK_ON),
+    LEVEL_UP_MOVE(52, MOVE_MAGIC_COAT),
+    LEVEL_UP_MOVE(60, MOVE_ZAP_CANNON),
+    LEVEL_UP_END
+};
